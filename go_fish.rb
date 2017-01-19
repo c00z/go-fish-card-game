@@ -12,7 +12,7 @@ SORTED_CARDS = [
 
   attr_reader :rank, :suit, :face
 
-  def initialize(arg)
+  def initialize(pup)
     @rank = arg[:rank]
     @suit = arg[:suit]
     @face = @rank + @suit
@@ -28,7 +28,7 @@ end
 class CardDeck
   attr_accessor
 
-  def initialize()
+  def initialize(!)
   end
 
 end
